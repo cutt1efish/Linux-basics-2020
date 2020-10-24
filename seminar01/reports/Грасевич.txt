@@ -1,0 +1,332 @@
+Первая группа заданий.
+1.
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ id
+uid=197608(user) gid=197121 groups=197121
+___________________________________________________________________
+
+2.
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ date
+23 окт 2020 г. 17:21:54
+___________________________________________________________________
+
+3.
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ pwd
+/c/Users/user
+___________________________________________________________________
+
+4.
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ls
+'3D Objects'/
+ ansel/
+ AppData/
+'Application Data'@
+ Autodesk/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ Intel/
+ IntelGraphicsProfiles/
+ kivy_venv/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ miktex-console.lock
+ Music/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TM.blf
+ NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+ SU2TMPCFG
+ TempYota/
+ venv/
+ Videos/
+'главное меню'@
+'Мои документы'@
+ Шаблоны@
+
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ ls -l
+total 11018
+drwxr-xr-x 1 user 197121       0 сен  9 12:25 '3D Objects'/
+drwxr-xr-x 1 user 197121       0 мар  8  2019  ansel/
+drwxr-xr-x 1 user 197121       0 сен 28  2019  AppData/
+lrwxrwxrwx 1 user 197121      29 сен 28  2019 'Application Data' -> /c/Users/user/AppData/Roaming/
+drwxr-xr-x 1 user 197121       0 май  6  2019  Autodesk/
+drwxr-xr-x 1 user 197121       0 сен  9 12:25  Contacts/
+lrwxrwxrwx 1 user 197121      57 сен 28  2019  Cookies -> /c/Users/user/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 user 197121       0 окт 22 15:04  Desktop/
+drwxr-xr-x 1 user 197121       0 окт 22 23:18  Documents/
+drwxr-xr-x 1 user 197121       0 окт 23 14:50  Downloads/
+drwxr-xr-x 1 user 197121       0 сен  9 12:25  Favorites/
+drwxr-xr-x 1 user 197121       0 сен 29 21:57  IdeaProjects/
+drwxr-xr-x 1 user 197121       0 фев 28  2019  Intel/
+drwxr-xr-x 1 user 197121       0 мар  1  2019  IntelGraphicsProfiles/
+drwxr-xr-x 1 user 197121       0 апр  7  2020  kivy_venv/
+drwxr-xr-x 1 user 197121       0 сен  9 12:25  Links/
+lrwxrwxrwx 1 user 197121      27 сен 28  2019 'Local Settings' -> /c/Users/user/AppData/Local/
+drwxr-xr-x 1 user 197121       0 фев 28  2019  MicrosoftEdgeBackups/
+-rw-r--r-- 1 user 197121      22 окт 15 10:39  miktex-console.lock
+drwxr-xr-x 1 user 197121       0 сен 14 22:06  Music/
+lrwxrwxrwx 1 user 197121      65 сен 28  2019  NetHood -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 user 197121 6553600 окт 23 02:15  NTUSER.DAT
+-rw-r--r-- 1 user 197121 1671168 сен 28  2019  ntuser.dat.LOG1
+-rw-r--r-- 1 user 197121 1732608 сен 28  2019  ntuser.dat.LOG2
+-rw-r--r-- 1 user 197121   65536 сен 28  2019  NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TM.blf
+-rw-r--r-- 1 user 197121  524288 сен 28  2019  NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 user 197121  524288 сен 28  2019  NTUSER.DAT{d0a37f40-e1f7-11e9-acfb-00d8611074d7}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 user 197121      20 сен 28  2019  ntuser.ini
+drwxr-xr-x 1 user 197121       0 окт 13 22:34  OneDrive/
+drwxr-xr-x 1 user 197121       0 окт 15 15:42  Pictures/
+lrwxrwxrwx 1 user 197121      65 сен 28  2019  PrintHood -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 user 197121       0 апр  7  2020  PycharmProjects/
+lrwxrwxrwx 1 user 197121      54 сен 28  2019  Recent -> /c/Users/user/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 user 197121       0 фев 28  2019  Roaming/
+drwxr-xr-x 1 user 197121       0 сен  9 12:25 'Saved Games'/
+drwxr-xr-x 1 user 197121       0 сен  9 12:25  Searches/
+lrwxrwxrwx 1 user 197121      54 сен 28  2019  SendTo -> /c/Users/user/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 user 197121       0 ноя  9  2019  source/
+-rw-r--r-- 1 user 197121   20710 мар 26  2019  SU2TMPCFG
+drwxr-xr-x 1 user 197121       0 мар 26  2019  TempYota/
+drwxr-xr-x 1 user 197121       0 апр 13  2019  venv/
+drwxr-xr-x 1 user 197121       0 окт 23 10:16  Videos/
+lrwxrwxrwx 1 user 197121      58 сен 28  2019 'главное меню' -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 user 197121      23 сен 28  2019 'Мои документы' -> /c/Users/user/Documents/
+lrwxrwxrwx 1 user 197121      57 сен 28  2019  Шаблоны -> /c/Users/user/AppData/Roaming/Microsoft/Windows/Templates/
+___________________________________________________________________
+
+5.
+user@DESKTOP-4T4VI3I MINGW64 ~
+$mkdir -p work
+
+user@DESKTOP-4T4VI3I MINGW64 ~
+$ cd work
+___________________________________________________________________
+
+6.
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$  echo "1234567890">digits.txt
+
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ cat digits.txt
+1234567890
+___________________________________________________________________
+
+7.
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ cat digits.txt digits.txt > digits2.txt
+___________________________________________________________________
+
+8.
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$  cat digits.txt digits.txt > digits2.txt
+
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ cat digits2.txt digits2.txt > digits4.txt
+
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ cat digits4.txt digits4.txt digits4.txt digits4.txt > digits16.txt
+
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ cat digits16.txt digits16.txt digits16.txt digits16.txt digits.txt > digits65.txt
+___________________________________________________________________
+
+9.
+user@DESKTOP-4T4VI3I MINGW64 ~/work
+$ wc -l digits65.txt
+65 digits65.txt
+___________________________________________________________________
+
+10.
+root@DESKTOP-4T4VI3I:~/work# head -5 /etc/passwd > work/first5.txt                       
+root@DESKTOP-4T4VI3I:~/work# tail -5 /etc/passwd > work/last5.txt  
+___________________________________________________________________
+
+11.
+root@DESKTOP-4T4VI3I:~/work# ls -l /etc > work/etc.txt   
+___________________________________________________________________
+
+12.
+root@DESKTOP-4T4VI3I:~/work# wc -l work/etc.txt                                          
+175 work/etc.txt
+
+===================================================================
+===================================================================
+Второй блок заданий.
+
+1.
+root@DESKTOP-4T4VI3I:~/work# mkdir DirA
+root@DESKTOP-4T4VI3I:~/work# mkdir DirB
+root@DESKTOP-4T4VI3I:~/work# echo "asdasdada" > DirA/1.txt
+root@DESKTOP-4T4VI3I:~/work# echo "zxczxczxc" > DirA/sf.txt
+root@DESKTOP-4T4VI3I:~/work# echo "tabwtabwtabw" > DirB/poof.txt
+root@DESKTOP-4T4VI3I:~/work# echo "wwqeewqwe" > DirB/inv.txt
+root@DESKTOP-4T4VI3I:~/work# cat DirA/1.txt DirA/sf.txt DirB/poof.txt DirB/inv.txt > DirA/a.txt
+root@DESKTOP-4T4VI3I:~/work# rm -R DirA
+root@DESKTOP-4T4VI3I:~/work# rm -R DirB
+___________________________________________________________________
+
+2.
+root@DESKTOP-4T4VI3I:~/work# whoami
+root
+root@DESKTOP-4T4VI3I:~/work# grep root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+root@DESKTOP-4T4VI3I:~/work# date -d 2021-01-01 +%a
+Fri
+___________________________________________________________________
+
+3.
+root@DESKTOP-4T4VI3I:~/work# id > work/inf.txt
+root@DESKTOP-4T4VI3I:~/work# ls -l > work/inf.txt
+root@DESKTOP-4T4VI3I:~/work# ps > work/inf.txt
+root@DESKTOP-4T4VI3I:~/work# date > work/inf.txt
+root@DESKTOP-4T4VI3I:~/work# grep inf.txt work/inf.txt
+root@DESKTOP-4T4VI3I:~/work# cal -y 2019 > work/cal.txt 
+___________________________________________________________________
+
+4.
+root@DESKTOP-4T4VI3I:~/work# ls /etc | grep .conf | head -10
+adduser.conf
+ca-certificates.conf
+ca-certificates.conf.dpkg-old
+dconf
+debconf.conf
+deluser.conf
+e2scrub.conf
+fuse.conf
+gai.conf
+hdparm.conf
+
+root@DESKTOP-4T4VI3I:~/work# mkdir example
+root@DESKTOP-4T4VI3I:~/work# chmod 000 example
+root@DESKTOP-4T4VI3I:~/work# adduser user
+Adding user `user' ...
+Adding new group `user' (1000) ...
+Adding new user `user' (1000) with group `user' ...
+The home directory `/home/user' already exists.  Not copying from `/etc/skel'.
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for user
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n]
+root@DESKTOP-4T4VI3I:~/work# su user
+user@DESKTOP-4T4VI3I:/root$ cd work/example
+bash: cd: example: Permission denied
+___________________________________________________________________
+
+5.
+root@DESKTOP-4T4VI3I:~/work# echo "" > a.txt
+root@DESKTOP-4T4VI3I:~/work# chmod 640 a.txt
+root@DESKTOP-4T4VI3I:~/work# chmod u-r a.txt
+
+___________________________________________________________________
+
+6.
+root@DESKTOP-4T4VI3I:~/work# echo "" > 1.txt
+root@DESKTOP-4T4VI3I:~/work# echo "" > 2.txt
+root@DESKTOP-4T4VI3I:~/work# echo "" > 3.txt
+root@DESKTOP-4T4VI3I:~/work# tar -czf archive.tar.gz 1.txt 2.txt 3.txt
+root@DESKTOP-4T4VI3I:~/work# tar -xvzf archive.tar.gz
+1.txt
+2.txt
+3.txt
+___________________________________________________________________
+
+7.
+root@DESKTOP-4T4VI3I:~/work# echo "" > a.txt
+root@DESKTOP-4T4VI3I:~/work# chmod 640 a.txt
+root@DESKTOP-4T4VI3I:~/work# chmod a+w a.txt
+___________________________________________________________________
+
+8.
+root@DESKTOP-4T4VI3I:~/work# find /usr/bin -name 'z*'
+/usr/bin/zcat
+/usr/bin/zcmp
+/usr/bin/zdiff
+/usr/bin/zdump
+/usr/bin/zegrep
+/usr/bin/zfgrep
+/usr/bin/zforce
+/usr/bin/zgrep
+/usr/bin/zipdetails
+/usr/bin/zless
+/usr/bin/zmore
+/usr/bin/znew
+/usr/bin/zsh
+/usr/bin/zsh5
+root@DESKTOP-4T4VI3I:~/work# find // -type f -mtime -1
+___________________________________________________________________
+
+9.
+root@DESKTOP-4T4VI3I:~/work# tail -5 /etc/passwd
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+user:x:1000:1000:,,,:/home/user:/bin/bash
+
+root@DESKTOP-4T4VI3I:~/work# tail -5 /etc/passwd | wc -w
+5
+___________________________________________________________________
+
+10.
+root@DESKTOP-4T4VI3I:~/work# mkdir ex
+root@DESKTOP-4T4VI3I:~/work# echo "" > file.txt
+root@DESKTOP-4T4VI3I:~/work# ls -l
+total 0
+drwxr-xr-x 1 root root 4096 Oct 24 18:48 ex
+-rw-r--r-- 1 root root    1 Oct 24 18:49 file.txt
+
+root@DESKTOP-4T4VI3I:~/work# ls /etc | grep ".*\.conf"| head -10
+adduser.conf
+ca-certificates.conf
+ca-certificates.conf.dpkg-old
+debconf.conf
+deluser.conf
+e2scrub.conf
+fuse.conf
+gai.conf
+hdparm.conf
+host.conf
+___________________________________________________________________
+
+11.
+root@DESKTOP-4T4VI3I:~/work# echo "">a.txt
+root@DESKTOP-4T4VI3I:~/work# chmod 557 a.txt
+root@DESKTOP-4T4VI3I:~/work# mv a.txt aaa.txt
+root@DESKTOP-4T4VI3I:~/work# cat > aaa.txt
+a;klsd;a
+z,cxnzc.mn
+aeqw
+root@DESKTOP-4T4VI3I:~/work# cat aaa.txt
+a;klsd;a
+z,cxnzc.mn
+aeqw
+root@DESKTOP-4T4VI3I:~/work# rm  aaa.txt
