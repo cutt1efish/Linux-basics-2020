@@ -1,1 +1,8 @@
-# print your commands
+C:\Users\user>docker pull haskell
+C:\Users\user>docker run -it --rm haskell
+Prelude> 2+3
+5
+Prelude> print "Hello world"
+"Hello world"
+Prelude>
+Leaving GHCi.
