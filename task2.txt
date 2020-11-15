@@ -1,1 +1,7 @@
-# print your commands
+C:\Users\user\IdeaProjects\Linux-basics-2020>docker build -t aaa .
+C:\Users\user\IdeaProjects\Linux-basics-2020>docker run -it --rm -d -p 65432:65432 aaa
+9beb81803e4fd74330f8ea03cefbd80f367b380950e06efc6e0e61be40ade722
+C:\Users\user\IdeaProjects\Linux-basics-2020>telnet localhost 65432
+aOK:a
+OK:
+bOK:b
